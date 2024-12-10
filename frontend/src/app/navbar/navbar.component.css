@@ -1,0 +1,230 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
+ul p{
+  float:left;
+  padding-left: 75px;
+  font-size: 28x;
+  font-family: georgia;
+  color:aliceblue;
+}
+
+ ul li {
+  float: right;
+  padding-left:25px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 7px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 15px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: georgia;
+}
+
+li a:hover {
+  background-color:rgb(27, 44, 44);
+  border-radius: 8px;
+  
+}
+.one{
+  background-color:rgb(27, 44, 44);
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+  border-radius: 1000px;
+  border: 1px solid;
+  transition: all .2s;
+ position: relative;
+}
+/*links styles*/
+
+.btn:link,
+.btn:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.btn:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn:active {
+ transform: translateY(-3px);
+}
+
+.btn::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+ul .icon{
+  float:left;
+  padding-top: 10px;
+}
+ul .icon .menu{
+  color:aliceblue;
+  padding: 35px;
+  font-size:30px;
+}
+
+/*sidenav*/
+button {
+  padding: 15px 25px;
+  border: unset;
+  color: #212121;
+  z-index: 1;
+  background: #79badb;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #282323;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ button:hover {
+  color: #020202;
+ }
+ 
+ button:hover::before {
+  width: 100%;
+ }
+ .a{
+  background:linear-gradient(#062b3b,#305262);
+  text-decoration: none;
+  width:250px;
+  color:white;
+  padding-left: 15px;
+  height:70px;
+ }
+ .a:focus{
+  background-color:rgb(27, 44, 44);
+ }
+
+ 
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  color: white;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+ 
+  padding-right: 10px;
+  position: fixed;
+  width: 40px;
+  z-index: 1000;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  left:24px;
+  background: transparent;
+}
+.menu-icon:hover{
+
+  color:aliceblue;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/img/back.jpg);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.sidebar.active {
+  width: 170px;
+}
+
+.sidebar a {
+  padding-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: georgia;
+}
+
+.sidebar a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+  background:linear-gradient(rgb(14, 15, 15),rgb(60, 71, 74),rgb(20, 20, 21));
+  color: white;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  cursor: pointer;
+  color: aliceblue;
+}
+/* Base styling */

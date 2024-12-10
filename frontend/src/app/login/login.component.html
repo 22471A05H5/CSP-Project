@@ -1,0 +1,14 @@
+<div>
+  <h2>Have an account?</h2>
+  <form (submit)="login()">
+    <label for="username">Username:</label>
+    <input type="text" [(ngModel)]="username" name="username" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" [(ngModel)]="password" name="password" required>
+    
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+<div class="card">Welcome back</div>

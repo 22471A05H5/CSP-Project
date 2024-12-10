@@ -1,0 +1,45 @@
+/* Ensure that the video container is responsive */
+.video-container {
+    position: absolute;
+    width: 100%; /* Full width of the container */
+    max-width: 800px; /* Optional: limit the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; 
+    left:340px;
+    box-shadow: 20px 20px 20px black;
+    top:150px;/* Optional: add padding around the container */
+  }
+  
+  /* Style the video element */
+  video {
+    width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the video */
+    border: 1px solid #ddd; /* Optional: add a border */
+  }
+  .p1{
+    top:670px;
+    position: absolute;
+    left:150px;
+    font-size: 23px;
+    font-family: georgia;
+  }
+
+  .video-container1 {
+    position: absolute;
+    width: 100%; /* Full width of the container */
+    max-width: 800px; /* Optional: limit the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; 
+    left:340px;
+    box-shadow: 20px 20px 20px black;
+    top:800px;/* Optional: add padding around the container */
+  }
+  
+  /* Style the video element */
+  video {
+    width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the video */
+    border: 1px solid #ddd; /* Optional: add a border */
+  }

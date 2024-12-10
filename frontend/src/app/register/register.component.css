@@ -1,0 +1,155 @@
+div {
+  background:transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  font-weight: bold;
+  position: absolute;
+  top:190px;
+  left:200px;
+  
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  border-width: 3px solid black;
+  box-shadow: 5px 5px 5px black;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 14px;
+  background: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+button[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.p2{
+  color:white;
+  font-weight: bold;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  position: absolute;
+  top:150px;
+  left:700px;
+}
+.p1{
+  color:white;
+  font-weight: bold;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  position: absolute;
+  top:300px;
+  left:700px;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  position: absolute;
+  top:140px;
+ 
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px;
+  border-radius: 50%;
+  animation: jump_4123 1s ease-in-out infinite;
+ 
+}
+
+.box:nth-child(1) {
+  background-color: #fe3df1;
+  animation-delay: 0.2s;
+  position: absolute;
+  top:120px;
+  left:720px;
+}
+
+.box:nth-child(2) {
+  background-color: #5eb2ee;
+  animation-delay: 0.4s;
+  position: absolute;
+  top:120px;
+  left:800px;
+}
+
+.box:nth-child(3) {
+  background-color: #d947e6;
+  animation-delay: 0.6s;
+  position: absolute;
+  top:120px;
+  left:900px;
+}
+
+.box:nth-child(4) {
+  background-color: #59b6e5;
+  animation-delay: 0.8s;
+  position: absolute;
+  top:120px;
+  left:1000px;
+}
+
+@keyframes jump_4123 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+}

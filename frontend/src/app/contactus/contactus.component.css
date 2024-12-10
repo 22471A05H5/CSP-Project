@@ -1,0 +1,32 @@
+/* section
+{
+  height: 100vh;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url("pexels-jefriwibawa-1387037.jpg");
+}
+input{
+  width:200px;
+  margin:10px;
+}
+textarea{
+  width:430px;
+  margin:10px;
+  background-color: transparent;
+}
+.button-button{
+  text-align: center;
+}
+input
+{
+  background-color:transparent;
+  color:white;
+}
+h2
+{
+  font-size:25px;
+  color:white;
+} */

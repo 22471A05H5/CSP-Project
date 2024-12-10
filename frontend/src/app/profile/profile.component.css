@@ -1,0 +1,139 @@
+div {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background:transparent;
+    position: absolute;
+    top:150px;
+    left:150px;
+    border-radius: 18px;
+    box-shadow: 10px 14px 18px rgba(14, 13, 13, 0.1);
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #dfe6ed;
+    color: black;
+    border: 4px solid transparent;
+    box-shadow: 10px 10px 10px black;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+    color: #040404;
+  }
+  
+  table tr {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    color: #070606;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    margin-top: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  form button {
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  form button:hover {
+    background-color: #35a6b7;
+  }
+  
+  form button:active {
+    transform: scale(0.95);
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .btn{
+    
+    left: 150px;
+    top:30px;
+    padding: 10px;
+    width:90px;
+    
+  }
+  h2{
+    left:350px;
+    position: absolute;
+    top:90px;
+  }
+  .edit{
+    position: absolute;
+    top:0px;
+    left:800px;
+    width:400px;
+    box-shadow: 10px 10px 10px black;
+    border: 4px solid transparent;
+    font-weight: bold;
+  }
+  .c1{
+    background-color: rgb(54, 174, 207);
+    color: black;
+  }
+  .c2{
+    background-color: rgb(182, 48, 178);
+    color: #f1f1f1;
+  }

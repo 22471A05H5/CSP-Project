@@ -1,0 +1,35 @@
+<ul>
+  <div class="top-menu">
+    <div class="menu-icon" (click)="toggleSidebar()">
+      &#9776; <!-- Menu Icon (three lines) -->
+    </div>
+  </div>
+  
+  <div class="sidebar" [class.active]="isSidebarOpen">
+    <div class="close-btn" (click)="toggleSidebar()">
+      &times; <!-- Close Icon (cross) -->
+    </div>
+    <a routerLink="/">Home</a>
+    <a routerLink="/about">About Us</a>
+    <a routerLink="/contact">Contact Us</a>
+    <a routerLink="/register">Register</a>
+    <a routerLink="/login">Login</a>
+    <a routerLink="/profile">Donors</a>
+    <a routerLink="/not-found">profile</a>
+    <a routerLink="/image-slider">Moreinfo</a>
+    <a routerLink="/businesses">Organization</a>
+    <a routerLink="/login">Logout</a>
+    
+    
+  </div>
+  
+
+  <p>FOOD BANK</p> 
+    
+    <li><a routerLink="/profile" class="btn">DONORS</a></li>
+    <li><a routerLink="/register" class="btn">Register</a></li>
+    <li><a routerLink="/login" class="btn">LOGIN</a></li>
+    <li><a routerLink="/about" class="btn">ABOUT US</a></li>
+    <li><a routerLink="/" class="btn">HOME</a></li>
+    
+</ul>
